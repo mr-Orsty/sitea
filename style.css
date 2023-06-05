@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(#A400B2, #240031);
+    background-color: #101010;
+    text-decoration: none;
 }
 
 nav{
@@ -24,7 +25,7 @@ nav a{
 }
 
 nav a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1{
@@ -34,12 +35,14 @@ h1{
 }
 
 .golo{
-    background-image: linear-gradient(180deg, #5224D6 0%, #27097E 100%);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: relative;
+    display: flex;
+    justify-content: center;
     top: 30px;
-    left: 32px;
-    width: 650px;
-    height: 150px;
+    left: 230px;
+    width: 790px;
+    height: 180px;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -48,12 +51,13 @@ h1{
 }
 
 .answ{
-    background-image: linear-gradient(180deg, #5224D6 0%, #27097E 100%);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: relative;
+    justify-content: center;
     top: 30px;
-    left: 32px;
-    width: 650px;
-    height: 430px;
+    left: 230px;
+    width: 790px;
+    height: 560px;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -62,29 +66,30 @@ h1{
 }
 
 .butA{
-    background-image: linear-gradient(180deg, #9C79FF 0%, #4C2DA5 100%);
-    box-shadow: black 0px 5px 10px 1px;
     text-decoration: none;
+    background-image: linear-gradient(180deg, #454545 0%, #656565 100%);
+    box-shadow: black 0px 5px 10px 1px;
     color: white;
     height: 30px;
     width: 110px;
     padding: 20px;
     border-radius: 10px;
     position: relative;
-    left: 250px;
+    left: 320px;
+    top: 50px;
 }
 
 div{
-    
+
 }
 
 .butA div{
-    
+
 }
 
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(#A400B2, #9300C7);
+    background-color: #101010;
 }
 
 nav{
@@ -104,7 +109,7 @@ nav a{
 }
 
 .bron{
-    background-image: linear-gradient(180deg, #5224D6 0%, #27097E 100%);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     width: 630px;
     height: 200px;
     position: relative;
@@ -119,7 +124,7 @@ nav a{
 }
 
 .shk{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: absolute;
     top: 100px;
     left: 40px;
@@ -131,7 +136,7 @@ nav a{
 }
 
 .met{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: absolute;
     top: 105px;
     left: 260px;
@@ -142,7 +147,7 @@ nav a{
 }
 
 .gold{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: absolute;
     top: 105px;
     left: 470px;
@@ -153,7 +158,7 @@ nav a{
 }
 
 .propts{
-    background-image: linear-gradient(180deg, #5224D6 0%, #27097E 100%);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     width: 590px;
     height: 550px;
     position: relative;
@@ -169,7 +174,7 @@ nav a{
 }
 
 .bgr{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     top: 80px;
     left: -40px;
     padding: 20px;
@@ -210,7 +215,7 @@ nav a{
 
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(#A400B2, #9300C7);
+    background-color: #101010;
 }
 
 nav{
@@ -221,7 +226,7 @@ nav a{
     text-decoration: none;
     color: white;
     padding: 12px;
-    background-color: #9C79FF;
+    background-color: #505050;
     border-radius: 10px;
     text-shadow: black 0px 1px 1px;
     position: relative;
@@ -230,7 +235,7 @@ nav a{
 }
 
 .bron{
-    background-image: linear-gradient(180deg, #5224D6 0%, #27097E 100%);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     width: 630px;
     height: 200px;
     position: relative;
@@ -245,7 +250,7 @@ nav a{
 }
 
 .shk{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: absolute;
     top: 100px;
     left: 40px;
@@ -256,7 +261,7 @@ nav a{
 }
 
 .met{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: absolute;
     border: 5px solid rgb(0, 207, 0);
     top: 105px;
@@ -268,7 +273,7 @@ nav a{
 }
 
 .gold{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     position: absolute;
     top: 105px;
     left: 470px;
@@ -279,7 +284,7 @@ nav a{
 }
 
 .propts{
-    background-image: linear-gradient(180deg, #5224D6 0%, #27097E 100%);
+    background-image: linear-gradient(180deg, #252524 0%, #353535 100%);
     width: 590px;
     height: 550px;
     position: relative;
@@ -295,7 +300,7 @@ nav a{
 }
 
 .bgr{
-    background-image: linear-gradient(#9C79FF, #4C2DA5);
+    background-image: linear-gradient(180deg, #353535 0%, #252524 100%);
     top: 80px;
     left: -40px;
     padding: 20px;
@@ -316,7 +321,7 @@ nav a{
 }
 
 .panel{
-    background-color: #3B06AB;
+    background-color: #505050;
     font-size: 25px;
     position: absolute;
     width: 340px;
